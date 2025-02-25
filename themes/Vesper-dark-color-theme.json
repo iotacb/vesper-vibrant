@@ -1,28 +1,30 @@
 {
 	"name": "Vesper Vibrant",
+	"semanticHighlighting": true,
 	"colors": {
 		// Editor
-		"editor.background": "#101010",
-		"editor.foreground": "#FFF",
-		"editor.selectionBackground": "#FFFFFF25",
-		"editor.selectionHighlightBackground": "#FFFFFF25",
+		"editor.background": "#0D0D0D",
+		"editor.foreground": "#FFFFFF",
+		"editor.selectionBackground": "#FFFFFF30",
+		"editor.selectionHighlightBackground": "#FFFFFF30",
 		"editorLineNumber.foreground": "#505050",
+		"editorLineNumber.activeForeground": "#FF9B49",
 		"editorGroupHeader.tabsBackground": "#101010",
 		"editorWidget.background": "#101010",
-		"editorWarning.foreground": "#FF9B49",
-		"editorError.foreground": "#FF3D3D",
+		"editorWarning.foreground": "#FFAE5E",
+		"editorError.foreground": "#FF4D4D",
 		"editorOverviewRuler.border": "#101010",
-		"editorGutter.addedBackground": "#49FFCF",
+		"editorGutter.addedBackground": "#41EDA8",
 		"editorGutter.deletedBackground": "#FF3D3D",
 		"editorGutter.modifiedBackground": "#FF9B49",
 		"diffEditor.insertedTextBackground": "#99FFE415",
 		"diffEditor.insertedLineBackground": "#99FFE415",
 		"diffEditor.removedTextBackground": "#FF808015",
 		"diffEditor.removedLineBackground": "#FF808015",
-		"editorInlayHint.foreground": "#A0A0A0",
-		"editorInlayHint.background": "#1C1C1C",
+		"editorInlayHint.foreground": "#B0B0B0",
+		"editorInlayHint.background": "#1A1A1A",
 		// Sidebar
-		"sideBar.background": "#101010",
+		"sideBar.background": "#0A0A0A",
 		"sideBarTitle.foreground": "#A0A0A0",
 		"sideBarSectionHeader.foreground": "#A0A0A0",
 		"sideBarSectionHeader.background": "#101010",
@@ -55,9 +57,11 @@
 		"badge.background": "#FF9B49",
 		"badge.foreground": "#000",
 		"button.background": "#FF9B49",
-		"button.hoverBackground": "#E78636",
+		"button.hoverBackground": "#FFB06E",
 		"button.foreground": "#000",
 		"focusBorder": "#FF9B49",
+		"panel.border": "#232323",
+		"sideBar.border": "#232323",
 		"icon.foreground": "#A0A0A0",
 		"input.background": "#1C1C1C",
 		"list.activeSelectionBackground": "#232323",
@@ -66,12 +70,12 @@
 		"list.highlightForeground": "#FF9B49",
 		"selection.background": "#666",
 		// Brackets
-		"editorBracketHighlight.foreground1": "#A0A0A0",
-		"editorBracketHighlight.foreground2": "#A0A0A0",
-		"editorBracketHighlight.foreground3": "#A0A0A0",
-		"editorBracketHighlight.foreground4": "#A0A0A0",
+		"editorBracketHighlight.foreground1": "#5984BB",
+		"editorBracketHighlight.foreground2": "#FF8080",
+		"editorBracketHighlight.foreground3": "#5984BB",
+		"editorBracketHighlight.foreground4": "#5984BB",
 		"editorBracketHighlight.foreground5": "#A0A0A0",
-		"editorBracketHighlight.foreground6": "#A0A0A0",
+		"editorBracketHighlight.foreground6": "#FFFFFF",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#FF8080",
 		// Links
 		"textLink.foreground": "#FF9B49",
@@ -97,7 +101,14 @@
 			"name": "Variables",
 			"scope": ["variable", "string constant.other.placeholder", "entity.name.tag"],
 			"settings": {
-				"foreground": "#FFF"
+				"foreground": "#F0F0F0"
+			}
+		},
+		{
+			"name": "constant",
+			"scope": ["constant", "variable.other.constant", "punctuation.definition.constant", "constant.other.symbol", "constant.language.symbol", "support.constant", "support.variable.magic.python", "variable.other.enummember"],
+			"settings": {
+				"foreground": "#41EDA8"
 			}
 		},
 		{
@@ -118,14 +129,14 @@
 			"name": "Keyword, Storage",
 			"scope": ["keyword", "storage.type", "storage.modifier"],
 			"settings": {
-				"foreground": "#A0A0A0"
+				"foreground": "#D97096"
 			}
 		},
 		{
 			"name": "Operator, Misc",
 			"scope": ["keyword.control", "constant.other.color", "punctuation.definition.tag", "punctuation.separator.inheritance.php", "punctuation.definition.tag.html", "punctuation.definition.tag.begin.html", "punctuation.definition.tag.end.html", "punctuation.section.embedded", "keyword.other.template", "keyword.other.substitution"],
 			"settings": {
-				"foreground": "#A0A0A0"
+				"foreground": "#D97096"
 			}
 		},
 		{
@@ -139,14 +150,14 @@
 			"name": "Function, Special Method",
 			"scope": ["entity.name.function", "variable.function", "support.function", "keyword.other.special-method"],
 			"settings": {
-				"foreground": "#FF9B49"
+				"foreground": "#FFA959"
 			}
 		},
 		{
 			"name": "Block Level Variables",
-			"scope": ["meta.block variable.other"],
+			"scope": ["variable"],
 			"settings": {
-				"foreground": "#FFF"
+				"foreground": "#DCDCDC"
 			}
 		},
 		{
@@ -160,21 +171,21 @@
 			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
 			"scope": ["constant.numeric", "support.constant", "constant.character", "constant.escape", "keyword.other.unit", "keyword.other", "constant.language.boolean"],
 			"settings": {
-				"foreground": "#FF9B49"
+				"foreground": "#D97096"
 			}
 		},
 		{
 			"name": "String, Symbols, Inherited Class",
 			"scope": ["string", "constant.other.symbol", "constant.other.key", "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"],
 			"settings": {
-				"foreground": "#99FFE4"
+				"foreground": "#41EDA8"
 			}
 		},
 		{
 			"name": "Class, Support",
 			"scope": ["entity.name", "support.type", "support.class", "support.other.namespace.use.php", "meta.use.php", "support.other.namespace.php", "markup.changed.git_gutter", "support.type.sys-types"],
 			"settings": {
-				"foreground": "#FF9B49"
+				"foreground": "#5984bb"
 			}
 		},
 		{
@@ -228,6 +239,13 @@
 			}
 		},
 		{
+			"name": "entity.name.function.js",
+			"scope": ["meta.object-literal.key", "meta.object.member", "variable.other.property", "variable.other.object.property", "support.variable.property", "variable.object.property", "support.type.property-name", "meta.property-name", "entity.name.tag.yaml", "constant.other.key", "constant.other.object.key.js", "string.unquoted.label.js", "support.type.map.key", "variable.graphql", "entity.name.grain", "entity.other.grain"],
+			"settings": {
+				"foreground": "#5984bb"
+			}
+		},
+		{
 			"name": "Attributes",
 			"scope": ["entity.other.attribute-name", "meta.property-list.scss", "meta.attribute-selector.scss", "meta.property-value.css", "entity.other.keyframe-offset.css", "meta.selector.css", "entity.name.tag.reference.scss", "entity.name.tag.nesting.css", "punctuation.separator.key-value.css"],
 			"settings": {
@@ -252,14 +270,14 @@
 			"name": "CSS ID's",
 			"scope": ["source.sass keyword.control", "meta.attribute-selector.scss"],
 			"settings": {
-				"foreground": "#99FFE4"
+				"foreground": "#41EDA8"
 			}
 		},
 		{
 			"name": "Inserted",
 			"scope": ["markup.inserted"],
 			"settings": {
-				"foreground": "#99FFE4"
+				"foreground": "#41EDA8"
 			}
 		},
 		{
@@ -280,14 +298,14 @@
 			"name": "Regular Expressions",
 			"scope": ["string.regexp"],
 			"settings": {
-				"foreground": "#A0A0A0"
+				"foreground": "#D97096"
 			}
 		},
 		{
 			"name": "Escape Characters",
 			"scope": ["constant.character.escape"],
 			"settings": {
-				"foreground": "#A0A0A0"
+				"foreground": "#D97096"
 			}
 		},
 		{
@@ -450,7 +468,10 @@
 		},
 		{
 			"name": "Markup - Quote",
-			"scope": ["markup.quote"]
+			"scope": ["markup.quote"],
+			"settings": {
+				"foreground": "#FFF"
+			}
 		},
 		{
 			"name": "Markdown - Link",
@@ -522,6 +543,35 @@
 			"settings": {
 				"foreground": "#FFF"
 			}
+		},
+		{
+			"name": "Function, Special Method",
+			"scope": ["entity.name.function", "meta.require", "support.function.any-method", "meta.function-call", "meta.method-call", "variable.function"],
+			"settings": {
+				"foreground": "#FF9B49"
+			}
+		},
+		{
+			"name": "React State Setters",
+			"scope": ["meta.function-call.js variable.function.js", "meta.function-call.ts variable.function.ts", "meta.function-call.tsx variable.function.tsx", "meta.function-call.jsx variable.function.jsx"],
+			"settings": {
+				"foreground": "#FF9B49"
+			}
 		}
-	]
+	],
+
+	"semanticTokenColors": {
+		"parameter": "#B8B8B8",
+		"property": "#6A95CC",
+		"function": "#FFA959",
+		"method": "#FFA959",
+		"class": "#6A95CC",
+		"enum": "#41EDA8",
+		"interface": "#6A95CC",
+		"type": "#6A95CC",
+		"namespace": "#D97096",
+		"function.react": "#FF9B49",
+		"variable.function": "#FF9B49",
+		"variable.function.react": "#FF9B49"
+	}
 }

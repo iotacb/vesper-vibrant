@@ -2,14 +2,14 @@
 	"name": "vesper-vibrant",
 	"displayName": "Vesper Vibrant",
 	"publisher": "iotacb",
-	"description": "A more vibrant version of the Vesper color theme.",
+	"description": "A more vibrant version of the Vesper color theme, with more colors.",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/iotacb/vesper-vibrant"
 	},
 	"icon": "icon.png",
-	"version": "0.0.40",
+	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.75.0"
 	},
